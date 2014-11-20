@@ -1,0 +1,335 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+
+body { width: 100%; height: 100%; color: #fff; font-family:sans-serif; background: #000  top left repeat-x; }
+
+#body-wrap { width: 962px; height: 575px; margin: 0 auto; background: #000 url('/images/bg/marble.jpg') 0px 33px no-repeat;}
+#main { width: 100%; height: 418px; background: url('/images/bg/pizza.png') bottom left no-repeat;}
+#nav { width: 100%; height: 33px; background: #4f2924; text-align: center; }
+#footer { width: 100%; height: 124px; background: #000 url('/images/bg/footer.jpg') top no-repeat; line-height: 1.2em;}
+#design { font-size: 0.7em; text-align: center; color: #999; padding: 5px 0 0 0;}
+#design a, a:hover, a:visited { text-decoration: underline; color: #999; }
+#logo{ margin: 18px 0 0 34px; }
+
+
+/*****headings*****/
+h1 { font-size: 1.2em; margin: 5px 0 10px 0; }
+h2 { font-size: 0.9em; margin: 0 0 10px 0; font-style: italic; font-weight: normal; color: #fff; }
+
+h3{
+   color:#fff;
+   
+   font-variant:small-caps;
+   letter-spacing:.1ex;
+   border-top:1px solid #f18b41;
+   border-bottom:1px solid #f18b41;
+    padding: 10px 20px 10px 10px;
+    margin: 0 0 0 115px;
+background: url('/images/bg/p40.png') top left repeat;
+/* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');
+}
+h3[class] {
+  background-image:url(/images/bg/p40.png);
+}
+
+
+p { font-size: 0.9em; padding: 3px 0 3px 0; }
+img { border: none; }
+
+/****links****/
+a, a:visited { color: #fff; text-decoration: none; }
+a img { cursor: pointer; }
+
+/*****nav*****/
+#nav li {
+	width:100px;
+	height:33px;
+	float:left;
+	color:#FFF;
+	text-align:center;
+	overflow:hidden;
+	background:#4f2924 url('http://www.lafontanatwyford.com/images/nav-bg.jpg') top left no-repeat;
+}
+#nav li:hover {background:#4f2924 url('http://www.lafontanatwyford.com/images/nav-bg-hover.jpg') top left no-repeat;}
+#nav ul { padding: 0; margin: 0; height: 33px; text-align: left; padding-left: 120px; }
+#nav a, #nav a:visited, #nav a:hover { color: #fff; text-decoration: none;	cursor: pointer; display: block; }
+#nav p { margin:6px 0 4px 0; }
+
+
+
+/*****index*****/
+#index-left { width: 280px; height: 100%; float: left; }
+#index-right { width: 321px; height: 100%; float: right; }
+#index-middle { width: 361px; height: 100%; margin: 0 321px 0 280px;background: url('/images/bg/p40.png') top left repeat; 
+/* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');
+}
+#index-middle[class] {
+  background-image:url(/images/bg/p40.png);
+}
+
+
+#index-pics { width: 316px; height: 160px; display: block; padding: 30px 0 0 0; }
+#index-pics img { padding: 5px; border: 1px #fff solid; margin: 0 0 0 20px; }
+
+#index-intro { padding: 0 15px 20px 20px; width: 316px; }
+#index-address { width: 180px; float: left; padding: 10px 20px 10px 10px; font-size: 1em; line-height: 1.2em; border-bottom:1px solid #f18b41; background: url('/images/bg/p40.png') top left repeat; float: right; margin: 0 50px 0 0; /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#index-address[class] {
+  background-image:url(/images/bg/p40.png);
+}
+
+/*****vt*****/
+#vt-viewer { width: 400px; height: 300px; float: left; margin: 40px 0 0 40px; border: 1px #fff solid;  }
+
+#vt-nav { width: 160px; height: 300px; float: right; margin: 40px 40px 0 0; line-height: 2em; font-size: 0.9em; font-variant:small-caps; letter-spacing:.1ex; }
+#vt-nav a { text-decoration: underline; cursor: pointer; }
+#vt-desc { display: block; float: left; font-size: 0.8em; color: #fff; padding: 20px 0 0 40px; width: 600px; }
+#viewer {  }
+
+/*****menu*****/
+#menu-left { width: 280px; height: 288px;  float: left; margin: 50px 0 0 0; text-align: right; padding: 80px 0 0 0; }
+#menu-right { width: 200px; height: 368px; float: right; margin: 50px 0 0 0;}
+#menu-middle { width: 682px; height: 418px; margin: 0 0 0 280px; background: url('/images/bg/p40.png') top left repeat;  /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#menu-middle[class] {
+  background-image:url(/images/bg/p40.png);
+}
+
+#menu-list li {
+    font-size: 0.9em;
+  list-style-type:none;
+  margin: 0;
+  padding: 3px 10px 2px 10px;
+	color: #362318;
+  }
+#menu-list a {	color: #362318;}
+#menu-list a:hover { text-decoration: underline; cursor:pointer; }
+
+#menu-list ul, { margin: 0 0 0 0; }
+#menu-wrap { width: 100%; height: 100%;}
+
+#menu { width: 682px; height: 418px; margin: 0 0 0 0; overflow:auto; overflow-x: hidden;  }
+#menu dl { width: 90%; overflow: auto; margin: 10px 0 0 0; background: url('../images/dot.gif') repeat-x 0 1em; margin-left: 3%;} 
+#menu dt { font-size: 100%; font-weight: normal; float: left; padding: 0 3px 2px 0px; color: #fff;}
+#menu dd { margin:0; }
+#menu dd.price {  font-size: 100%; float: right; padding-left: 3px; color: #fff; } 
+#menu dd.ingredients { float: left; width:90%; width:100%; padding: 3px 0 10px 0px; font: italic 0.9em sans-serif; color: #ccc}
+#menu .country { font-style: italic; font-size: 1em; padding: 0 10px 0 10px; font-weight: normal; color:#fff; }
+#menu-title { font-size: 1.3em;  width:100%; height: 30px; text-align: center; padding: 30px 0 0 0; display: block;  }
+
+#menu-loading { width: 682px; height: 418px; padding: 10px 0 0 0; font-size: 1em; text-align: center; color:#fff; }
+#menu-loading img { padding:150px 0 10px 0;  }
+
+#menu p { font: normal 0.9em sans-serif; padding: 0 10px 10px 10px; }
+
+/*****gallery*******/
+#main-gallery { width: 100%; height: 418px;}
+
+#gallery-left,#vt-left { width: 280px; height: 288px;  float: left; margin: 50px 0 0 0; text-align: right; padding: 80px 0 0 0; }
+#gallery-middle,#vt-middle { height: 100%; width: 682px; margin: 0 0 0 280px; background: url('/images/bg/p40.png') top left repeat; /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#gallery-middle[class] {
+  background-image:url(/images/bg/p40.png);
+}
+#gallery-container { height: 300px; padding: 50px 0 0 130px; }
+#gallery-main { border: 2px #ccc solid; }
+
+
+/******offers************/
+#offers-main { width: 500px; height: 100%; margin: 0 20px 0 280px;  background: url('/images/bg/p40.png') top left repeat; padding: 0 20px 0 20px; /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#offers-main[class] {
+  background-image:url(/images/bg/p40.png);
+}
+
+#offers-title { padding: 0 0 0 0; width: 500px; height: 200px; text-align: left; font-size: 1em; background: url('/images/offers.png') 20px center no-repeat; }
+#offers-title p { padding: 90px 60px 0 60px; }
+
+.offer-title { text-transform: uppercase; color: #f18b41; }
+.offer-desc{ font-size: 0.8em; }
+.offer-exp{ font-style: italic; font-size: 0.7em; }
+.offer { padding: 0 0 20px 0; text-align: center;  }
+
+/******directions************/
+#directions-left { width: 280px; height: 200px;  float: left; margin: 50px 0 0 0; text-align: right; padding: 80px 0 0 0; }
+#directions-middle { width: 682px; height: 418px; margin: 0 0 0 280px; background: url('/images/bg/p40.png') top left repeat; /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#directions-middle[class] {
+  background-image:url(/images/bg/p40.png);
+}
+#main-directions { width: 100%; height: 418px;}
+#directions-address { width: 180px; float: left; padding: 10px 20px 10px 10px; font-size: 1em; line-height: 1.2em; border-bottom:1px solid #f18b41;
+background: url('/images/bg/p40.png') top left repeat; float: right; /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#directions-address[class] {
+  background-image:url(/images/bg/p40.png);
+}
+
+#directions-container { width: 650px; float: right; }
+#iframe-directions { margin: 50px 40px 8px 0; padding: 5px; border: 1px #fff solid; background: url('/images/bg/p40.png') top left repeat; /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#iframe-directions[class] {
+  background-image:url(/images/bg/p40.png);
+}
+#google-link,#google-link a { width: 690px; text-align: center; float: right; color: #4f2924; text-decoration: underline;  }
+
+/*********contact********/
+#contact-main { width: 500px; height: 100%; margin: 0 20px 0 280px;  background: url('/images/bg/p40.png') top left repeat; padding: 0 20px 0 20px; /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#contact-main[class] {
+  background-image:url(/images/bg/p40.png);
+}
+#contact-left { width: 280px; height: 288px;  float: left; margin: 50px 0 0 0; text-align: right; padding: 80px 0 0 0; }
+#contact-middle { height: 100%; width: 682px; margin: 0 0 0 280px; background: url('/images/bg/p40.png') top left repeat; 
+/* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/images/bg/p40.png');}
+#contact-middle[class] {
+  background-image:url(/images/bg/p40.png);
+}
+#contact-container {
+padding: 40px 0 0 50px;
+}
+.number { font-size: 1.4em; }
+
+
+/*preload classes*/ 
+.svw {width: 50px; height: 20px; background: #fff; border: 2px #ccc solid;} 
+.svw ul {position: relative; left: -999em;} 
+ 
+/*core classes*/ 
+.stripViewer {  
+position: relative; 
+overflow: hidden;    
+margin: 0 0 1px 0; 
+} 
+.stripViewer ul { /* this is your UL of images */ 
+margin: 0; 
+padding: 0; 
+position: relative; 
+left: 0; 
+top: 0; 
+width: 1%; 
+list-style-type: none; 
+} 
+.stripViewer ul li {  
+float:left; 
+} 
+.stripTransmitter { 
+overflow: auto; 
+width: 1%; 
+} 
+.stripTransmitter ul { 
+margin: 0; 
+padding: 0; 
+position: relative; 
+list-style-type: none; 
+} 
+.stripTransmitter ul li{ 
+width: 20px; 
+float:left; 
+margin: 0 1px 1px 0; 
+} 
+.stripTransmitter a{ 
+font: bold 10px Verdana, Arial; 
+text-align: center; 
+line-height: 22px; 
+background: #fff; 
+color: #ff6e00; 
+text-decoration: none; 
+display: block; 
+} 
+.stripTransmitter a:hover, a.current{ 
+background: #ff6e00; 
+color: #fff; 
+} 
+ 
+/*tooltips formatting*/ 
+#tooltip { 
+background: #fff; 
+color: #000; 
+opacity: 0.85; 
+border: 5px solid #dedede; 
+} 
+#tooltip h3 {  
+font: normal 10px Verdana;  
+margin: 0;  
+padding: 6px 2px;  
+border: 0; 
+} 
+
+/***********adverts************/
+#ad-breakfast {
+width: 481px;
+height: 124px;
+cursor: pointer;
+float: left;
+background: #fff url('http://www.lafontanatwyford.com/images/ads/breakfast.jpg') top left no-repeat;
+}
+#ad-breakfast input {
+float: right;
+}
+#ad-school input {
+float: right;
+}
+#ad-school {
+width: 481px;
+height: 124px;
+cursor: pointer;
+float: right;
+background: #fff url('http://www.lafontanatwyford.com/images/ads/school.jpg') top left no-repeat;
+}
+#ad-ingredients {
+width: 481px;
+height: 124px;
+cursor: pointer;
+float: right;
+background: #fff url('http://www.lafontanatwyford.com/images/ads/ingredients.png') top left no-repeat;
+}
+.coming-soon {
+padding: 120px 0 0 450px; font-size: 1.2em;
+}
+
+/******more info button******/
+.moreInfoButton
+  { behavior: url('http://www.lafontanatwyford.com/IEFixes.htc');
+    display: block;
+    padding: 40px 0px 0px 0px;
+	margin: 70px 50px 0 0;
+    border: none;
+    background: url(http://www.lafontanatwyford.com/images/moreinfo.png) no-repeat;
+    background-position: 0px 0px;
+    height: 40px;
+    width: 149px;
+  }
+
+.moreInfoButton:hover, .moreInfoButton.hover
+  { background-position: 0px -40px;
+  }
+
+.moreInfoButton:active, .moreInfoButton.active
+  { background-position: 0px -80px;
+  }
+/******directions button******/
+.directionsButton
+  { behavior: url('http://www.lafontanatwyford.com/IEFixes.htc');
+    display: block;
+    padding: 40px 0px 0px 0px;
+    margin: 0 280px 0 0;
+    float: right;
+    border: none;
+    background: url(http://www.lafontanatwyford.com/images/directions.png) no-repeat;
+    background-position: 0px 0px;
+    height: 40px;
+    width: 149px;
+  }
+
+.directionsButton:hover, .directionsButton.hover
+  { background-position: 0px -40px;
+  }
+
+.directionsButton:active, .directionsButton.active
+  { background-position: 0px -80px;
+  }
+.caps { font-variant:small-caps; font-size: 1.2em; }
